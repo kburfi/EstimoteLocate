@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/editRoom"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/edit_room" />
+    <item
+        android:id="@+id/deleteRooms"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/delete" />
+    <item
+        android:id="@+id/assignBeacons"
+        app:showAsAction="always"
+        android:icon="@mipmap/gray_estimote"
+        android:title="@string/assign_beacons" />
+
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="estimote_colors">
+        <item>@color/blueEstimote</item>
+        <item>@color/greenEstimote</item>
+        <item>@color/purpleEstimote</item>
+        <item>@color/yellowEstimote</item>
+        <item>@color/deepPurpleEstimote</item>
+    </array>
+</resources>

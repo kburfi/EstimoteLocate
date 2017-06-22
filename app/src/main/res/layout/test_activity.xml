@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/testOutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_running"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/testBattery"
+            layout="@layout/two_button_layout" />
+
+        <include
+            android:id="@+id/testAccuracy2D"
+            layout="@layout/two_button_layout" />
+
+        <include
+            android:id="@+id/testAccuracy3D"
+            layout="@layout/two_button_layout" />
+
+        <include
+            android:id="@+id/testMovementMonitoring"
+            layout="@layout/two_button_layout" />
+
+        <include
+            android:id="@+id/testRanging"
+            layout="@layout/two_button_layout" />
+    </LinearLayout>
+</ScrollView>

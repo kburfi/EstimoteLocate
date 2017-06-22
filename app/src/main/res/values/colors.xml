@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">@android:color/holo_green_dark</color>
+    <color name="grey">#8E8E8E</color>
+    <color name="darkGrey">#686868</color>
+    <color name="blueEstimote">#40C4F2</color>
+    <color name="greenEstimote">#9FD5B9</color>
+    <color name="purpleEstimote">#A777B5</color>
+    <color name="yellowEstimote">#E8E413</color>
+    <color name="deepPurpleEstimote">#750C4E</color>
+    <color name="halfTransparent">#60828282</color>
+</resources>
